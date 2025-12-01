@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torquestor Image - Image Optimizer for Game Development</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar" role="navigation" aria-label="Main navigation">
+            <a href="#" class="logo" aria-label="Torquestor homepage">
+                <img src="assets/icons/Torquestor.png" alt="Torquestor Logo" class="logo-img" role="img">
+                <span class="logo-text">Torquestor</span>
+            </a>
+            <ul class="nav-links" role="menubar">
+                <li role="none"><a href="#features" role="menuitem">Features</a></li>
+                <li role="none"><a href="#how-it-works" role="menuitem">How It Works</a></li>
+                <li role="none"><a href="#community" role="menuitem">Community</a></li>
+                <li role="none"><a href="https://luisdorado.itch.io/torquestor" class="btn btn-primary" role="menuitem">Get Started</a></li>
+            </ul>
+            <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-menu">
+                <span class="bar" aria-hidden="true"></span>
+                <span class="bar" aria-hidden="true"></span>
+                <span class="bar" aria-hidden="true"></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section fade-in" aria-labelledby="hero-title">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 id="hero-title"><span class="product-name-highlight">Torquestor Image</span><br>Optimize Images for Game Development</h1>
+                    <p class="subtitle">The all-in-one application for Windows and Linux, designed to optimize and prepare your visual assets for game development.</p>
+                    <div class="hero-actions" role="group" aria-label="Call to action buttons">
+                        <a href="https://luisdorado.itch.io/torquestor" class="btn btn-primary btn-lg">Start Your Journey</a>
+                        <a href="#features" class="btn btn-secondary btn-lg">Learn More</a>
+                    </div>
+                </div>
+                <div class="hero-image" role="region" aria-label="Product screenshots">
+                    <div class="carousel-container" aria-live="polite" aria-label="Product image carousel" role="button" tabindex="0">
+                        <img src="assets/images/Captura de pantalla_2025-09-10_17-55-07.png" alt="Torquestor interface optimizing images" class="carousel-img active" loading="lazy" width="640" height="360">
+                        <img src="assets/images/Captura de pantalla_2025-09-10_17-42-38.png" alt="Torquestor - Batch processing configuration" class="carousel-img" loading="lazy" width="640" height="360">
+                        <img src="assets/images/Captura de screenshot_2025-09-10_17-43-03.png" alt="Torquestor - Icon creation tools" class="carousel-img" loading="lazy" width="640" height="360">
+                        <img src="assets/images/Captura de screenshot_2025-09-10_17-43-23.png" alt="Torquestor - Problem detection and solution" class="carousel-img" loading="lazy" width="640" height="360">
+                    </div>
+                    <div class="carousel-indicators">
+                        <button class="indicator active" data-slide="0" aria-label="Go to slide 1"></button>
+                        <button class="indicator" data-slide="1" aria-label="Go to slide 2"></button>
+                        <button class="indicator" data-slide="2" aria-label="Go to slide 3"></button>
+                        <button class="indicator" data-slide="3" aria-label="Go to slide 4"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features-section section-padding fade-in" aria-labelledby="features-title">
+            <div class="container">
+                <h2 id="features-title">Key Features for Game Developers</h2>
+                <p class="section-description">Torquestor simplifies image management with powerful and efficient tools.</p>
+                <div class="features-grid" role="list">
+                    <div class="feature-card" role="listitem">
+                        <h3>Batch Processing</h3>
+                        <p>Process entire folders of images at once for compression, conversion, analysis, and resizing.</p>
+                    </div>
+                    <div class="feature-card" role="listitem">
+                        <h3>Automatic Icon Creation</h3>
+                        <p>Generate icons for various platforms (Microsoft Store, Play Store, Unreal Engine, Unity, etc.) from a single PNG. Includes manual mode for .ICO or multiple PNGs (16x16 to 2048x2048).</p>
+                    </div>
+                    <div class="feature-card" role="listitem">
+                        <h3>Problem Detection and Solution</h3>
+                        <p>Automatically find problematic assets, suggest solutions, and offer optional auto-correction for common issues.</p>
+                    </div>
+                    <div class="feature-card" role="listitem">
+                        <h3>Intelligent Export and Organization</h3>
+                        <p>Export optimized assets directly to a ZIP file or folders, and automatically organize file names.</p>
+                    </div>
+                    <div class="feature-card" role="listitem">
+                        <h3>Supported Formats</h3>
+                        <p>Compatibility with the most common image formats for game development, including WebP, PNG and JPG, ensuring versatility for your projects.</p>
+                    </div>
+                    <div class="feature-card" role="listitem">
+                        <h3>Sprite Sheet Tools (Coming Soon)</h3>
+                        <p>Composition and decomposition of sprite sheets, collision map generation, and other metadata, with capability to generate JSON/XML files and color maps.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="how-it-works" class="how-it-works-section section-padding fade-in" aria-labelledby="how-it-works-title">
+            <div class="container">
+                <h2 id="how-it-works-title">Simplify Your Workflow</h2>
+                <p class="section-description">Torquestor was created to solve repetitive tasks of scaling and icon creation, offering a unified solution.</p>
+                <div class="steps-grid" role="list">
+                    <div class="step-card" role="listitem">
+                        <div class="step-number">1</div>
+                        <h3>Load Your Images</h3>
+                        <p>Import your image folders or resources directly into the application with ease.</p>
+                    </div>
+                    <div class="step-card" role="listitem">
+                        <div class="step-number">2</div>
+                        <h3>Configure Optimization</h3>
+                        <p>Choose between compression, conversion, resizing, and other options to prepare your assets.</p>
+                    </div>
+                    <div class="step-card" role="listitem">
+                        <div class="step-number">3</div>
+                        <h3>Export Icons or Images (Folder/ZIP)</h3>
+                        <p>Export your optimized icons and images to folders or a ZIP file, according to your project needs.</p>
+                    </div>
+                    <div class="step-card" role="listitem">
+                        <div class="step-number">4</div>
+                        <h3>Free Your Time</h3>
+                        <p>Let Torquestor handle the tedious work and focus on what matters most: developing your game.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="community" class="community-section section-padding fade-in" aria-labelledby="community-title">
+            <div class="container">
+                <h2 id="community-title">A Solution Created by a Developer, for Developers</h2>
+                <p class="section-description">Torquestor was created to solve repetitive and tedious tasks in game development.</p>
+                <div class="community-content">
+                    <img src="assets/images/Captura de screenshot_2025-09-10_17-42-07.png" alt="Torquestor optimizing images for game developers" class="community-image" loading="lazy" width="400" height="300" role="img">
+                    <div class="community-text">
+                        <h3>Focus on Creating, Not Scaling</h3>
+                        <p>Free yourself from asset management and dedicate your time to what really matters: designing and coding your next great game. Torquestor unifies unstable solutions in a consistent graphical interface.</p>
+                        <a href="https://luisdorado.itch.io/torquestor" target="_blank" class="btn btn-primary">Visit itch.io</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="requirements" class="requirements-section section-padding fade-in">
+            <div class="container">
+                <h2>System Requirements</h2>
+                <p class="section-description">Torquestor is lightweight and easy to use. You just need the following minimum requirements:</p>
+                <div class="requirements-container">
+                    <div class="requirements-table">
+                        <div class="requirement-row">
+                            <div class="requirement-label">Operating System</div>
+                            <div class="requirement-value">Windows 7/8/10/11 or Linux (64-bit)</div>
+                        </div>
+                        <div class="requirement-row">
+                            <div class="requirement-label">Architecture</div>
+                            <div class="requirement-value">64-bit</div>
+                        </div>
+                        <div class="requirement-row">
+                            <div class="requirement-label">RAM Memory</div>
+                            <div class="requirement-value">300 MB free</div>
+                        </div>
+                        <div class="requirement-row">
+                            <div class="requirement-label">Disk Space</div>
+                            <div class="requirement-value">Less than 50 MB for installation</div>
+                        </div>
+                        <div class="requirement-row">
+                            <div class="requirement-label">Supported Languages</div>
+                            <div class="requirement-value">English, Spanish, German, French, Chinese, Brazilian Portuguese</div>
+                        </div>
+                        <div class="requirement-row">
+                            <div class="requirement-label">Application Type</div>
+                            <div class="requirement-value">Portable App - Download, Extract and Use</div>
+                        </div>
+                    </div>
+                    <div class="requirements-features">
+                        <div class="feature-card requirements-feature">
+                            <h3>Lightweight</h3>
+                            <p>Minimal system resource usage</p>
+                        </div>
+                        <div class="feature-card requirements-feature">
+                            <h3>Portable</h3>
+                            <p>No installation required, run directly</p>
+                        </div>
+                        <div class="feature-card requirements-feature">
+                            <h3>Multilingual</h3>
+                            <p>Support for multiple languages</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="call-to-action" class="cta-section section-padding fade-in" aria-labelledby="cta-title">
+            <div class="container">
+                <h2 id="cta-title">Ready to Optimize Your Visual Assets?</h2>
+                <p class="section-description">Download Torquestor today and transform your game development workflow.</p>
+                <div class="hero-actions" role="group" aria-label="Call to action buttons"> <!-- Reusing hero-actions for button grouping -->
+                    <a href="https://luisdorado.itch.io/torquestor" target="_blank" class="btn btn-primary btn-lg">Download for Windows and Linux (itch.io)</a>
+                    <button class="btn btn-secondary btn-lg btn-disabled" disabled>Microsoft Store (Coming Soon for Windows)</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section section-padding" aria-labelledby="contact-title">
+            <div class="container">
+                <h2 id="contact-title">Need Help or Have Questions?</h2>
+                <p class="section-description">Visit the official Torquestor page on itch.io for support, downloads, and more information.</p>
+                <a href="https://luisdorado.itch.io/torquestor" target="_blank" class="btn btn-primary btn-lg">Visit itch.io Page</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Legal Content Overlay -->
+    <div id="legal-overlay" class="legal-overlay">
+        <div class="legal-content-container">
+            <div class="legal-content">
+                <div class="legal-header">
+                    <h2 id="legal-title" class="legal-title">Privacy Policy</h2>
+                    <button id="close-legal" class="close-legal-btn">&times;</button>
+                </div>
+                <div id="legal-text" class="legal-text">
+                    <!-- Legal content will be inserted here by JavaScript -->
+                </div>
+                <div class="legal-footer">
+                    <p>Torquestor © 2025 - All rights reserved</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-grid" role="navigation" aria-label="Footer navigation">
+                <div class="footer-col">
+                    <h3>Torquestor</h3>
+                    <p>Tool for optimizing and preparing images</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul role="list">
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#how-it-works">Workflow</a></li>
+                        <li><a href="#community">About Creator</a></li>
+                        <li><a href="https://luisdorado.itch.io/torquestor">Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul class="legal-links" role="list">
+                        <li><a href="#" class="legal-link" data-content="privacy">Privacy Policy</a></li>
+                        <li><a href="#" class="legal-link" data-content="terms">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Connect</h4>
+                    <div class="social-links" role="list">
+                        <a href="https://twitter.com/luisrrrrt" target="_blank" aria-label="Follow on X (Twitter)" role="listitem">
+                            <svg class="social-icon" viewBox="0 0 24 24" width="24" height="24">
+                                <path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="YouTube (Coming Soon)" class="disabled-link" role="listitem">
+                            <svg class="social-icon" viewBox="0 0 24 24" width="24" height="24">
+                                <path fill="currentColor" d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.6 14.526v-8.162l7.27 4.082-7.27 4.08z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Torquestor. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
