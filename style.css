@@ -227,6 +227,11 @@ img {
     color: var(--color-text-primary);
 }
 
+.logo-text-image {
+    color: var(--color-accent-blue);
+    margin-left: 0.25rem;
+}
+
 .nav-links {
     display: flex;
     gap: 2rem;
